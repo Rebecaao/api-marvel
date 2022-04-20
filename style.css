@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.containner-header{
+    height: 120px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+
+.logo{
+    height: 92px;
+    width: 279px;
+}
+.containner-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(0, 0, 0);
+    height: 92px;
+    width: 1200px;
+   
+   
+}
+.containner-menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+}
+.section-personagem{
+    height: 450px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#nome-personagem{
+    background-color: rgb(255, 255, 255);
+    height: 90px;
+    width: 400px;
+    
+}
+
+#img-personagem{
+    background-color: rgb(255, 255, 255);
+    height: 380px;
+    width: 390px;
+
+}
+
+.section-tipos{
+    height: 450px;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+#tipo{
+    justify-items: end;
+    color: white;
+    text-align: end;
+}
+
+.container-cards{
+    display: flex;
+    height: 360px;
+    background-color: rgb(0, 0, 0);
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+.card-personagem{
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 300px;
+    border: 1px solid white;
+
+}
+
+.section-historia{
+    height: 450px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.historia{
+
+    margin-bottom: 20px;
+    
+}
+
+#his{
+    color: white;
+    font-size: 30px;
+}
+
+#historia-api{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 700px;
+    background-color: rgb(255, 255, 255);
+}
+
+img{
+    height: 300px;
+    width: 350px;
+}
+
+.nomeheroi{
+    color: aliceblue;
+    font-size: 70px;
+}
+
+.personagem{
+    width: 200px;
+    border:solid 1px white ;
+    border-radius: 10px;
+
+}
+
+.historiaheroi{
+    width: 600px;
+    height: 200px;
+    color: white;
+}
+
+.divPai{
+    margin-top: 40px;
+    display: flex;
+    width: 400px;
+    height: 300px;
+}
+
+.cards-gibi{
+    height: 300px;
+    width: 400px; border-radius: 10px;
+
+}
