@@ -27,7 +27,7 @@ fetch('https://gateway.marvel.com/v1/public/characters/1009351?ts=1&apikey=2c925
     console.log(objetoJson)
 })
 
-fetch('https://gateway.marvel.com/v1/public/characters/1009351/comics?ts=1&apikey=2c9256c21b906dffbf2f1dcf8a0a6b0e&hash=9ec1c61428f9b0709f001aa40d7ee8a5&limit=3'
+fetch('https://gateway.marvel.com/v1/public/characters/1009351/comics?ts=1&apikey=2c9256c21b906dffbf2f1dcf8a0a6b0e&hash=9ec1c61428f9b0709f001aa40d7ee8a5&limit=4'
 ).then((response) =>{
      return response.json();
 }).then((objetoJson)=>{
